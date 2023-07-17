@@ -11,5 +11,8 @@ h.heapify(lista) #Ordenação de acordo com a prioridade
 print("A ordem de apresentação é:")
 
 h.heappop(lista) # Remoção de acordo com a prioridade 
-for i in lista: 
+
+h.heappush(lista,(10,'Ana')) #Inserção de uma tupla 
+
+for i in lista: #impressão da Fila no momento final
   print(i[0],':',i[1])
