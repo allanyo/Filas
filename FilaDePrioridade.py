@@ -26,21 +26,5 @@ class FilaDePrioridade:
         print("{} foi removido da lista".format(item))
         return item
         
-x = FilaDePrioridade()
-print(x.itens)
-x.inserir(2)
-x.inserir(10)
-x.inserir(1)
-x.inserir(30)
 
-print(x.itens)
-
-x.remover()
-
-
-x.remover()
-
-x.remover()
-
-print(x.itens)
 
